@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Portfolio</title>    
+    <title>Portfolio</title>
+    <!--<link rel="stylesheet" href="C:\Users\Admin\Desktop\CSPresntation\Newone\Index.css">--!>
 <Style>
 /* main 
 .main{
@@ -136,7 +137,14 @@ ul li a:hover{
 	padding-bottom:10%;
 	line-height:20px;			
 }
-
+h1{
+	line-height:30px
+	}
+p{
+	letter-spacing: 1.1px;
+	font-size:20px;	
+	}
+	
 #p1{
 	font-size:40px;
 }
@@ -416,6 +424,9 @@ project {
 	padding-left: 20px;	
 	padding-top:120px;
 	line-height: 26px;	
+}
+.skill #sk{
+	font-size:12px;
 }
 .skill .s{
 	padding-left:60px;
@@ -926,7 +937,7 @@ button{
 	<marquee class="hanuma" direction="right"><img src="WebCon/Hanuma.png" alt="Hanuma" width="24" height="24"></marquee>			
 				<div class="bar">
 	                <ul id="menu">
-                    <li><a class="nonactive active" href="#h">HOME</a></li>                    
+                    <li><a class="nonactive" href="#h">HOME</a></li>                    
 					<li><a class="nonactive" href="#a">ABOUT</a></li>
                     <li><a class="nonactive" href="#p">PROJECTS</a></li>
                     <li><a class="nonactive" href="#s">SKILLS</a></li>
@@ -946,8 +957,8 @@ button{
 				<div class="home">
 					<a name="h">
 					<div class="h" id="h"><br><br>
-						<h2 Style="font-size:40px">Hi There,</h2><h2 Style="font-size:42px">Welcome to My Portfolio</h2><h1 Style="font-size:52px">I am<br><br>GOVARDHANA GIRI</h1>
-							<p Style="font-size:20px"> A Senior Technical Lead Specialized in UI/UX Desiging</p>                             
+						<h2 Style="font-size:40px">Hi There,</h2><h2 Style="font-size:38px">Welcome to My Portfolio<br><br> </h2><h1 Style="font-size:52px">I am <br><br> GOVARDHANA GIRI</h1>
+							<p> A Senior Technical Lead Specialized in UI/UX Desiging</p>                             
 					</a>
 					</div>
 				</div>			
@@ -955,7 +966,7 @@ button{
 				<div class="about">
 					<a name="a">
 						<div class="a" id="a"><br><br><br><br><br><br><br><br>
-						<p>I have overall 10+ years of experience in designing, engaging & delightful,<br> 
+						<p Style="font-size:18px"; "color:white">I have overall 10+ years of experience in designing, engaging & delightful,<br> 
 						AR/VR, digital, mobile & web product interfaces with focus on UX. 
 						Participated in<br> brainstorming sessions for designing user workflows 
 						& wireframes to produce<br> user-friendly interfaces for various web and 
@@ -1089,38 +1100,25 @@ button{
 				<div class="contac"><br><br><br><br><br><br><br>			
 					<a name="c">
 						<div class="c" id="c"><br><br>
-							<h1 id="ty" Style="size:50px"> Thank You :)</h1><br>
-							<div class="ci">
+							<h1 id="ty" Style="size:50px"> Thank You :)</h1><br>								
+								<div class="ci">
 								<h2><u>Contact Information:</u></h2>						
 										<b>E-Mail:</b> v.govardhana@gmail.com<br>
 										<b>Phone :</b> (+91) 9849017183<br>
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(+91) 7382435054<br>
-								<a href="WebCon/CV.pdf" target="_blank" download='pdf' class="download">View My CV</a> <br><br>						
-							</div>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="C:\Users\Admin\Desktop\CSPresntation\Newone\CV.pdf" target="_blank" download='pdf' class="download">My CV</a> <br><br>						
+								</div>
 						</div>
 					</a><br><br>
 				</div><br><br>
-					<script>
-// Add active class to the current button (highlight it)
-					var header = document.getElementById("menu");
-					var btns = header.getElementsByClassName("nonactive");
-					for (var i = 0; i < btns.length; i++) {
-					btns[i].addEventListener("click", function() {
-					var current = document.getElementsByClassName("active");
-					current[0].className = current[0].className.replace(" active", "");
-					this.className += " active";});
-					}
-					</script>
     </div>
-	
-	
+		
 	<!-- Background --!>
 		<div class="bg"></div>
 		<div class="star-field">
 		<div class="layer"></div>
 		<div class="layer"></div>
 		<div class="layer"></div>
-	
-	
+		
 </body>
 </html>
